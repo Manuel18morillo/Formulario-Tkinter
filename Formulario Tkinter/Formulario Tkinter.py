@@ -38,7 +38,7 @@ tk.Radiobutton(ventana, text="Femenino", variable=genero, value="Femenino").grid
 city=tk.Label(ventana,text="Ciudad")
 city.grid(row=6,column=1)
 escogeciudad = tk.StringVar()
-ciudades = ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena"]
+ciudades = ["Bogotá", "Medellín", "Barranquilla", "Cartagena"]
 
 listciudad = tk.Listbox(ventana, listvariable=escogeciudad, height=5)
 listciudad.grid(row=6, column=2)
